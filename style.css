@@ -7,12 +7,46 @@ body {
 }
 
 header {
-    background-color: #444;
+    background-color: #47321a;
     color: white;
     padding: 1rem;
     text-align: center;
 }
 
 .Bnosotros{
-    background-color: lightcoral;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img_n1{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
