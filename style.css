@@ -13,6 +13,35 @@ header {
     text-align: center;
 }
 
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
 .Bnosotros{
     background-color: lightcoral;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
