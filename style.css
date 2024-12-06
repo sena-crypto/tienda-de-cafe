@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-.header_page{
+.header_page {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
@@ -38,9 +38,16 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
+}
+
+.header-content_page h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
 }
 
 .menu {
@@ -296,7 +303,7 @@ p {
 }
 
 .img_n1{
-    width: 100%;
+    width: 80%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -405,3 +412,4 @@ img {
     color: #323337;
     width: 70%;
 }
+
