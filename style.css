@@ -43,17 +43,6 @@ body {
     align-items: center;
 }
 
-/* .blog-1-productos {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #E1E2E6;
-    border-radius: 15px;
-    margin-bottom: 15px;
-} */
 .menu {
     position: absolute;
     top: 0;
