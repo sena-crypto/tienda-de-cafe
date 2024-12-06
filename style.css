@@ -366,7 +366,7 @@ img {
 }
 
 .blog-productos {
-    padding: 100px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
@@ -381,14 +381,14 @@ img {
 
 .blog-1-productos {
     width: 30%;
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     background-color: #E1E2E6;
     border-radius: 15px;
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
 .blog-1-productos img {
@@ -401,7 +401,23 @@ img {
     font-size: 25px;
     color: #323337;
 }
+
 .blog-1-productos p{
     color: #323337;
     width: 70%;
+}
+
+.btn-1-productos {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #302f2f;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+
+.btn-1-productos:hover {
+    background-color: #EBAD8D;
+    color: #302f2f;
+    font-weight: 600;
 }
