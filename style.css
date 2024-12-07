@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-.header_page{
+.header_page {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
@@ -38,9 +38,16 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
+}
+
+.header-content_page h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
 }
 
 .menu {
@@ -289,14 +296,12 @@ p {
 }
 
 .Bnosotros{
-    max-width: 900px;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 100%;
+    height: auto;
 }
 
 .img_n1{
-    width: 100%;
+    width: 80%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -420,4 +425,74 @@ img {
     background-color: #EBAD8D;
     color: #302f2f;
     font-weight: 600;
+}
+
+.nosotros{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nosotros-h{
+    width: 50%;
+    height: auto;
+    padding: 5%;
+    background-color: #E1E2E6;
+}
+
+.nosotros-img{
+    background-image: url(./sources/img/coffee-beans-2258839_1280-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.nosotros-img-2{
+    background-image: url(./sources/img/caficultores-colombianos.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.nosotros-img-3{
+    background-image: url(./sources/img/el-cafe.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.tanks {
+    text-align: center;
+    font-size: 15px;
+    padding: 5%;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(./sources/img/bg3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+.tanks p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5%;
+}
+
+.politicas{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.politicas section{
+    width: 100%;
+    text-align: justify;
 }
