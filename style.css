@@ -659,4 +659,16 @@ img {
         flex-direction: column;
         text-align: center;
     }
+
+    .blog-1-productos {
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: #E1E2E6;
+        border-radius: 15px;
+        margin: 15px;
+    }
 }
