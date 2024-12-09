@@ -624,17 +624,18 @@ img {
         margin-bottom: 25px;
     }
 
-    .general {
+    .general, .nosotros{
         flex-direction: column;
     }
 
-    .general-1 {
+    .general-1, .nosotros-h {
         width: 100%;
         padding: 30px;
         text-align: center;
     }
 
-    .general-2, .general-3 {
+    .general-2, .general-3, .nosotros-img-3, 
+    .nosotros-img-2, .nosotros-img{
         display: none;
     }
 
