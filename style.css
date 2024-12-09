@@ -361,7 +361,7 @@ img {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display: none; /* Inicialmente oculto */
+    display: none;
 }
 
 .main_productos{
@@ -487,12 +487,57 @@ img {
 }
 
 .politicas{
-    max-width: 900px;
+    max-width: 80%;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 10%;
 }
 .politicas section{
     width: 100%;
     text-align: justify;
+}
+
+.form-back {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(./sources/img/bg3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+        display: flex;
+        justify-content: center;
+}
+
+.form-img{
+    background-image: url(./sources/img/buen_cafe.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.form-content{
+    background-color: rgba(255, 255, 255, 0.782);
+    width: 80%;
+    height: 300px;
+    display: flex;
+}
+
+
+.form-1{
+    margin: 1%;
+    width: 50%;
+}
+
+.form-1 p{
+    color: #000000;
+}
+.form-1 textarea{
+    font-family: "Poppins", sans-serif;
+    max-width: 80%;
+    min-width: 100%;
+    max-height: 50%;
+    min-height: 50%;
 }
